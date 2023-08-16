@@ -8,7 +8,7 @@ function App() {
 	const navigate = useNavigate();
 	const [Text, setText] = useState(initialValue);
 	
-	console.log(Text);
+	
 	const handleChange = (e) => {
 		setText((prev) => {
 			return { ...prev, mytext: e.target.value };
