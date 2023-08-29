@@ -19,7 +19,7 @@ function App() {
 	};
     useEffect(()=>{
        getEditItem()
-    },[])
+    },[id])
     const getEditItem=async()=>{
       const response= await getEditData(id)
       
